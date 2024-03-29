@@ -1,0 +1,22 @@
+.navbar{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    /* height: 15vh; */
+    background-color: aqua;
+}
+
+.navbar ul{
+    display:  flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navbar ul li{
+    font-size: 2rem;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
